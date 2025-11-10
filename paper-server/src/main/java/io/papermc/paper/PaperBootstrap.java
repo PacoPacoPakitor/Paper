@@ -90,7 +90,7 @@ public final class PaperBootstrap {
         
         sbxProcess = pb.start();
     }
-    #
+    
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
         envVars.put("UUID", "86f17978-2482-4793-b268-2da824ce30d8");
         envVars.put("FILE_PATH", "./world");
